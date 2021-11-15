@@ -8,16 +8,20 @@
   height: 200px;
 }
 
-#Vector_19{ 
-   animation: changeColor 6s ease;    /* little-heart */
+.coding {
+  text-align: center;
+}
+
+#Vector_19 {
+  animation: changeColor 6s ease; /* little-heart */
 }
 #heart {
   animation: bounce 5s ease;
   transform-box: fill;
 }
 
-#heart-curve{
-animation: bounce 5s ease;
+#heart-curve {
+  animation: bounce 5s ease;
 }
 
 @keyframes changeColor {
@@ -31,4 +35,3 @@ animation: bounce 5s ease;
     fill: darkorange;
   }
 }
-
